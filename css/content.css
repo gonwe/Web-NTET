@@ -1,0 +1,382 @@
+*{margin:0px; padding:0px;}
+	
+html,body{
+		width: 100%; 
+		font-family: "微软雅黑"; 
+		background: #F8F8F8;
+		}
+.clear{
+		clear:both
+		}
+		
+ /*顶部内容*/
+#header {
+		background:#008fc3;
+		width:100%; 
+		height:80px;
+		margin: 0 auto;
+		padding-top:20px;
+		}
+#header .logo{
+		width:1200px; 
+		height:60px; 
+		margin: 0 auto;
+		padding-top: 2px;
+	
+		}
+#header .logopic{
+		width:300px; 
+		height:60px; 
+		float:left ;
+		padding-top: 2px;
+		padding-left: 20px;
+		}		
+#navbar {
+		width: 1200px;
+		height: 64px;
+		margin: 0 auto;
+		overflow: hidden;
+  
+		}	
+
+#navbar .logo{
+		width:220px; 
+		height:50px; 
+		float:left ;
+		padding-top: 5px;
+		padding-left: 20px;
+		}
+#navbar .menu{
+		width: 800px;
+		height: 64px;
+		margin: 0 auto;
+		float: right;
+		padding-top: 1px;
+		padding-right: 5px;
+		}
+#navbar .menu  ul a {
+ 	 	text-align: center;
+  		text-decoration: none;
+		letter-spacing:2px;
+		text-decoration: none;
+		}			
+#navbar .menu ul li{
+		list-style-type: none;/*去掉圆点*/
+		width: 120px;
+		height: 64px;
+		float: left;
+  		line-height:64px;
+		text-align:center;
+		font-size: 16px;
+		font-family: "微软雅黑";
+		position: relative;
+		
+		color: #000;
+		}
+		
+#navbar .menu li:hover {
+		background-color: #008fc3;
+		color:white;
+		border-bottom: 1px solid #3F3;
+		}	
+
+#navbar .menu .jihuo {
+		background-color: #008fc3;
+		color:white;
+		border-bottom: 1px solid #3F3;
+		}
+
+#banner {
+		background:#008fc3;
+		margin:0 auto;
+		width:100%;
+		}
+#banner img {
+		margin:0 auto;
+		width:100%;
+		height: 279px;
+		}	
+	
+#content{
+		width:1200px;
+		
+		margin:0 auto;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		}
+#content .dqwz {
+		float: right;
+		margin-right: 20px;
+		margin-top: 10px;
+		height: 30px;
+		line-height:30px;
+		width: 280px;
+		font-size: 14px;
+		}
+#content .dqwz a {
+		color: black;
+		text-decoration: none;
+		}	
+#content .dqwz a:hover{
+		color: #0066cc;
+		}
+		
+#content .title{
+		width: 1200px;
+		height: 50px;
+		background:#CCC;
+		border-left: 5px solid #008fc3;
+		border-right: 5px solid #008fc3;
+		}	
+		
+#content .title li{
+		list-style-type: none;/*去掉圆点*/
+		width: 120px;
+		height: 50px;
+		float: left;
+  		line-height:50px;
+		text-align:center;
+		font-size: 18px;
+		
+		}
+#content .title a {
+		color: black;
+		text-decoration: none;
+		}	
+#content .title a:hover{
+		color: #0066cc;
+		}		
+#content .jihuo{
+		background-color: #008fc3;
+		color:white;
+		}		
+#content .title li:hover {
+		background-color: #008fc3;
+		color:white;
+		}
+	
+/*长内容*/	
+#content .text{
+		width: 100%;
+		margin: 0 auto;
+		margin-right:0px;
+		height:700px;
+		margin-top:20px;
+		line-height: 35px;
+		
+		}
+#content .text .ifo {
+		 height:50px;
+	    background:#F3F4F5;
+		text-align: center;
+		font-size: 14px;
+		line-height: 50px;
+		margin:10px 300px;
+		}
+#content .text .down{
+		text-indent: 50px;
+		}
+		
+#content .text .down ul{	
+		list-style-type: none;
+		margin-right:50px;
+		
+		}
+#content .text .down a{
+		text-decoration: none;
+		color:#000;
+		}	
+		
+#content .text .down a:hover
+		{
+		color:#008fc3;
+		}				
+#content .text h1{
+		text-align: center;
+		font-size: 18px;
+		margin-bottom:20px;
+		}
+		
+#content .text p {
+		margin:5px;
+		line-height: 35px;
+		
+		}
+/*短内容*/		
+#content .short{
+		width: 100%;
+		margin: 0 auto;
+		margin-right: 0px;
+		height: 500px;
+		margin-top: 20px;
+		line-height: 35px;
+		text-align: left;
+		
+		}
+#content .short .ifo {
+	    height:50px;
+	    background:#F3F4F5;
+		text-align: center;
+		font-size: 14px;
+		line-height: 50px;
+		margin:10px 300px;
+		}
+#content .short .down{
+		text-indent: 60px;
+		}
+		
+#content .short .down ul{	
+		list-style-type: none;
+		margin-right:50px;
+		
+		}
+#content .short .down a{
+		text-decoration: none;
+		color:#000;
+		}	
+		
+#content .short .down a:hover
+		{
+		color:#008fc3;
+		}				
+#content .short h1{
+		text-align: center;
+		font-size: 18px;
+		margin-bottom:20px;
+		}
+
+		
+#content .short p {
+		float:none;
+		margin:5px;
+		}
+#content .short .wzxy{
+		text-align: right;
+		}	
+		
+/*短内容*/				
+#content img{
+		float:left;
+		margin:5px;
+		text-indent: 50px;
+		}				
+#content .btk{
+		width: 100%;
+		margin: 0 auto;
+		margin-right:0px;
+		height:26px;
+		line-height:26px;
+		margin-bottom:10px;
+		
+		
+		}
+			
+#content h1{
+	    padding-left:18px;
+		color:#4d4d4d;
+		font-size:18px;
+		
+		
+		}
+#content .more{
+		height:26px;
+		line-height:26px;
+		width:80px;
+		font-size:16px;
+		float:right;
+		}
+#content .btk .more a{
+		color:#008fc3;
+		}
+		
+#content .btk .more a:hover{
+		color:balck;
+		}
+		
+	
+/*内容部分*/
+#content .xstz{
+		width: 1200px;
+		margin: 0 auto;
+		padding-top:20px;
+		}
+		
+#content .xstz .hr {
+		background-color: #008fc3;
+		height: 4px;
+		margin-left:18px;
+		width: 70px;
+		float:left;
+	
+		}
+#content .xsbg{
+		
+		float:left;
+		width: 62%;
+		}
+		
+#content .xstz ul
+		{	
+		padding-left:20px;
+		color:#008fc3;
+		}
+#content .xstz li
+		{
+		
+		height:25px;
+		margin: 20px;
+		line-height:25px;
+		
+		
+		}
+#content .xstz span{
+		display:block;
+		font-size:13px; 
+		float:right;
+		color:#000;
+		}
+#content .xstz a{
+		text-decoration: none;
+		color:#000;
+		}
+#content .xstz a:hover
+		{
+		color:#008fc3;;
+		font-size:17px;
+		
+		}
+#content .xstz li:hover
+		{
+		background:#F0F0F0;
+		}
+#content .tzgg{
+	
+		float:right;
+		width:35%;
+		
+		}	
+
+/*底部*/
+.footertop {
+		background: #008fc3;
+		}			
+#footer {
+		display: block;
+		width:1200px; 
+		height:50px;
+		margin: 0 auto;
+		padding-top: 10px;
+		font-size:14px; 
+		color: white; 
+		background: #008fc3;
+		}	
+
+#footer p{
+		width:1200px;
+		margin: 0 auto;
+		display: block;
+		margin:10px 200px;
+		line-height:26px;
+		font-size:14px;
+		text-align:left;
+		}
